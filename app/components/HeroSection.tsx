@@ -43,8 +43,8 @@ export const HeroSection = () => {
   return (
     <section className='hero-section' id="home">
         <div className='hero-content'>
-            <h1>Hello I'm Arvin.</h1>
-            <h1>I'm a {text}</h1>
+            <h1>Hello Im Arvin.</h1>
+            <h1>Im a {text}</h1>
             <div className='paragraph'>
                 Experienced website developer with expertise in React, JavaScript, WordPress, PHP, Hydrogen, and Shopify.
             </div>
