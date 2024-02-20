@@ -39,7 +39,49 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'Noto Sans Medium';
+  src: url('../public/font/NotoSans-Medium.eot');
+  src: url('../public/font/NotoSans-Medium.eot?#iefix') format('embedded-opentype'),
+      url('../public/font/NotoSans-Medium.woff2') format('woff2'),
+      url('../public/font/NotoSans-Medium.woff') format('woff'),
+      url('../public/font/NotoSans-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto Sans regular';
+  src: url('../public/font/NotoSans-Regular.eot');
+  src: url('../public/font/NotoSans-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../public/font/NotoSans-Regular.woff2') format('woff2'),
+      url('../public/font/NotoSans-Regular.woff') format('woff'),
+      url('../public/font/NotoSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto Sans bold';
+  src: url('../public/font/NotoSans-SemiBold.eot');
+  src: url('../public/font/NotoSans-SemiBold.eot?#iefix') format('embedded-opentype'),
+      url('../public/font/NotoSans-SemiBold.woff2') format('woff2'),
+      url('../public/font/NotoSans-SemiBold.woff') format('woff'),
+      url('../public/font/NotoSans-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* Font */
+
+h1,
+h2,
+h3 {
+  font-family: 'Noto Sans bold';
+}
 
 .main-header {
   padding: 25px;
@@ -104,4 +146,35 @@
   .nav-items {
     padding-right: 30px;
   }
+}
+
+/* Footer */
+
+.footer-main {
+  padding: 25px;
+}
+
+.footer-copyright {
+  font-family: 'Pitch Sans Medium';
+  position: relative;
+  display: inline-block;
+}
+
+.footer-copyright:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 110%;
+  height: 1px;
+  background-color: #000;
+  width: 50px;
+  opacity: .5;
+}
+
+/* Hero section */
+.hero-section {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px 25px;
+  max-width: 1200px;
 }
