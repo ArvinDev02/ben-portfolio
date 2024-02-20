@@ -24,7 +24,7 @@ const Navbar = () => {
     useEffect(() => {
         const handleScroll = () => {
             const rotationAngle = window.scrollY / 10; // Adjust speed of rotation as per requirement
-            const logo = document.querySelector('.header-logo img');
+            const logo = document.querySelector('.header-logo img') as HTMLImageElement; // Cast to HTMLImageElement
             if (logo) {
                 const logoHeight = logo.getBoundingClientRect().height;
                 const pageHeight = document.documentElement.scrollHeight;
@@ -41,7 +41,7 @@ const Navbar = () => {
             window.removeEventListener('scroll', handleScroll);
         };
     }, []);
-
+    
     return (
         <div className='main-header'>
             <div className='header-logo'>
