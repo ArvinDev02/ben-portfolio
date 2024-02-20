@@ -76,6 +76,9 @@
 }
 
 /* Font */
+body {
+  background-color: #EAE7E6;
+}
 
 main {
   position: relative;
