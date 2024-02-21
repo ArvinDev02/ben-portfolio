@@ -53,7 +53,7 @@ export const About = () => {
             >
                 <h3>Oh Hello There!</h3>
                 <p>
-                    Im Arvin Garcellano, a Philippines-based front-end website developer and graphic designer. I specialize in crafting visually stunning websites with seamless user experiences. Let's work together to bring your digital ideas to life!
+                    I&apos;m Arvin Garcellano, a Philippines-based front-end website developer and graphic designer. I specialize in crafting visually stunning websites with seamless user experiences. Let&apos;s work together to bring your digital ideas to life!
                 </p>
                 <p>
                     Outside of work, I enjoy fishing, camping, hiking and drawing.

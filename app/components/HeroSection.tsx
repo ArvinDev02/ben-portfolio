@@ -55,8 +55,8 @@ export const HeroSection = () => {
                }}
                viewport={{ once: true }}
             >
-              <h1>Hello Im Arvin.</h1>
-              <h1>Im a {text}</h1>
+              <h1>Hello I&apos;m Arvin.</h1>
+              <h1>I&apos;m a {text}</h1>
             </motion.div>
             <motion.div 
              initial={{ opacity: 0, x: -30 }}
