@@ -4,6 +4,9 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import { HeroSection } from "./components/HeroSection";
 import arrowUp from "../public/images/arrow-up.png";
+import { Frameworks } from "./components/Frameworks";
+import { Projects } from "./components/Projects";
+import { About } from "./components/About";
 
 export default function Home() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -34,16 +37,9 @@ export default function Home() {
   return (
     <main className="">
       <HeroSection />
-      <HeroSection />
-      <HeroSection />
-      <HeroSection />
-      <HeroSection />
-      <HeroSection />
-      <HeroSection />
-      <HeroSection />
-      <HeroSection />
-      <HeroSection />
-      <HeroSection />
+      <Frameworks />
+      <Projects />
+      <About />
       <button
         className={`back-to-top ${isScrolled ? "active" : ""}`}
         onClick={scrollToTop}

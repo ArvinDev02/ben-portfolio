@@ -1,5 +1,7 @@
 "use client"
 import React, { useState, useEffect } from 'react';
+import { motion } from "framer-motion";
+import Image from 'next/image';
 
 export const HeroSection = () => {
   const [text, setText] = useState('');
@@ -43,11 +45,43 @@ export const HeroSection = () => {
   return (
     <section className='hero-section' id="home">
         <div className='hero-content'>
-            <h1>Hello Im Arvin.</h1>
-            <h1>Im a {text}</h1>
-            <div className='paragraph'>
-                Experienced website developer with expertise in React, JavaScript, WordPress, PHP, Hydrogen, and Shopify.
-            </div>
+            <motion.div
+               initial={{ opacity: 0, x: -30 }}
+               whileInView={{ opacity: 1, x: 0 }}
+               transition={{
+                   delay: 0.5,
+                   duration: 1.1,
+                   ease: [0.19, 1, 0.22, 1],
+               }}
+               viewport={{ once: true }}
+            >
+              <h1>Hello Im Arvin.</h1>
+              <h1>Im a {text}</h1>
+            </motion.div>
+            <motion.div 
+             initial={{ opacity: 0, x: -30 }}
+             whileInView={{ opacity: 1, x: 0 }}
+             transition={{
+                 delay: 1,
+                 duration: 1.1,
+                 ease: [0.19, 1, 0.22, 1],
+             }}
+             viewport={{ once: true }}
+
+              className='paragraph'
+            >
+                Experienced website developer with expertise in <span>React</span>, <span>JavaScript</span>, <span>WordPress</span>, <span>PHP</span>, <span>Hydrogen</span>, and <span>Shopify</span>.
+            </motion.div>
+            <div className='scribbles-wrapper'>
+            <Image
+                className='accordion-arrow'
+                src="/images/scribbles.gif"
+                fill
+                sizes="(max-width: 768px) 200px, (max-width: 1024px) 500px, 500px"
+                priority={true}
+                alt=""
+            />
+        </div>
         </div>
     </section>
   );
