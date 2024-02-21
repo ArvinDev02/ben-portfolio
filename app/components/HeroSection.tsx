@@ -81,6 +81,14 @@ export const HeroSection = () => {
                 priority={true}
                 alt=""
             />
+            <Image
+                className='accordion-arrow spider-gif'
+                src="/images/spider.gif"
+                fill
+                sizes="(max-width: 768px) 200px, (max-width: 1024px) 500px, 500px"
+                priority={true}
+                alt=""
+            />
         </div>
         </div>
     </section>
