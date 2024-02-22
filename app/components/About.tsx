@@ -39,6 +39,14 @@ export const About = () => {
                     priority={true}
                     alt=""
                 />
+                <Image
+                    className='glasses'
+                    src="/images/thuglayf-glasses.png"
+                    fill
+                    sizes="(max-width: 768px) 200px, (max-width: 1024px) 500px, 500px"
+                    priority={true}
+                    alt=""
+                />
             </motion.div>
             <motion.div 
                 initial={{ opacity: 0, x: -30 }}
