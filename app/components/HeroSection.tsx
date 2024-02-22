@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 export const HeroSection = () => {
   const [text, setText] = useState('');
-  const phrases = ["Website developer.", "Graphic Designer.", "Banana."];
+  const phrases = ["Website developer.", "Graphic Designer."];
   const speed = 100; // Typing speed in milliseconds
   const deleteSpeed = 100; // Speed to delete text in milliseconds
 
