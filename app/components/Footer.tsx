@@ -9,6 +9,9 @@ export const Footer = () => {
         </div>
         
         <div className='footer-email'>
+          <Link href="https://www.instagram.com/arvingarcellano/" target='_blank'>
+            Instagram~
+          </Link>
           <Link href="https://www.linkedin.com/in/arvin-garcellano-a81257282/" target='_blank'>
             LinkedIn~
           </Link>

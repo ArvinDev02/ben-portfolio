@@ -197,6 +197,7 @@ h3 {
   opacity: .7;
 }
 
+.nav-items a.active:after,
 .nav-items a:hover:after {
   transform: scaleX(1);
   transform-origin: left;
@@ -390,7 +391,7 @@ h3 {
   position: fixed;
   bottom: 50px;
   right: 10px;
-  transform: translateY(100px);
+  transform: translateY(200px);
   transition: all .7s ease-in-out;
 }
 
@@ -521,6 +522,10 @@ h3 {
   font-family: 'Pitch Sans Medium';
 }
 
+.project-info h4 {
+  font-family: 'Pitch Sans Light';
+}
+
 .project-info h3 {
   margin-bottom: 5px;
   letter-spacing: 3px;
@@ -632,19 +637,6 @@ h3 {
 
 .profile-img-wrapper {
   position: relative;
-}
-
-.profile-img-wrapper img.glasses {
-  width: 80px!important;
-  transform: translateX(1000px);
-  transition: all .5s ease-in-out;
-  position: absolute !important;
-  top: 110px !important;
-  left: 120px !important;
-}
-
-.profile-img-wrapper:hover img.glasses {
-  transform: translateX(0);
 }
 
 .about-section {

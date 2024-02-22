@@ -39,14 +39,6 @@ export const About = () => {
                     priority={true}
                     alt=""
                 />
-                <Image
-                    className='glasses'
-                    src="/images/thuglayf-glasses.png"
-                    fill
-                    sizes="(max-width: 768px) 200px, (max-width: 1024px) 500px, 500px"
-                    priority={true}
-                    alt=""
-                />
             </motion.div>
             <motion.div 
                 initial={{ opacity: 0, x: -30 }}
@@ -92,9 +84,9 @@ export const About = () => {
                         />
                         <h4 className='accordion-title'>Education</h4>
                         <div className='accordion-content'>
-                            Bachelor of Science & Technology<br/>
+                           <strong>Bachelor of Science & Technology</strong><br/>
                             2014 - 2018<br/>
-                            @Palawan State University
+                            <strong>@Palawan State University</strong>
                         </div>
                     </div>
                     <div className={`accordion-item ${activeItem === 'experience' ? 'active' : ''}`} onClick={() => toggleActiveItem('experience')}>
@@ -108,7 +100,7 @@ export const About = () => {
                         />
                         <h4 className='accordion-title'>Experience</h4>
                         <div className='accordion-content'>
-                            6 years
+                            6 years of experience in front-end development.
                         </div>
                     </div>
                 </div>
