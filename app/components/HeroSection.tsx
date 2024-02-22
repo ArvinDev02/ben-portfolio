@@ -81,6 +81,7 @@ export const HeroSection = () => {
                 priority={true}
                 alt=""
             />
+            <span className='bubble-tot'>I&apos;m a web developer!</span>
             <Image
                 className='accordion-arrow spider-gif'
                 src="/images/spider.gif"

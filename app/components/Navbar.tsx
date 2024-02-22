@@ -18,6 +18,10 @@ const NAV_ITEMS: Array<NavItem> = [
     label: 'About',
     page: 'about',
   },
+  {
+    label: 'Contact',
+    page: 'contact',
+  },
 ];
 
 const Navbar = () => {
@@ -64,7 +68,7 @@ const Navbar = () => {
             key={i}
             className={activeItem === item.page ? 'active' : ''}
           >
-            {item.label}
+            <span>{item.label}</span>
           </a>
         ))}
       </div>

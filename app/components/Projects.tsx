@@ -52,9 +52,9 @@ export const Projects = () => {
                 <div className='project-info'>
                     <h3>Statura</h3>
                     <h4>React | NextJS</h4>
-                    <span>
+                    {/* <span>
                         Statura is an independent provider of high-value Corporate, Trust and Private client services.
-                    </span>
+                    </span> */}
                 </div>
             </motion.div>
             <motion.div 
@@ -90,9 +90,9 @@ export const Projects = () => {
                 <div className='project-info'>
                     <h3>Nova Chef</h3>
                     <h4>Shopify</h4>
-                    <span>
+                    {/* <span>
                         HIGH-END RESTAURANT MEALS WITHOUT A KITCHEN OR CHEFS
-                    </span>
+                    </span> */}
                 </div>
             </motion.div>
             <motion.div 
@@ -128,9 +128,9 @@ export const Projects = () => {
                 <div className='project-info'>
                     <h3>Bush Hall</h3>
                     <h4>Shopify</h4>
-                    <span>
+                    {/* <span>
                     Originally built by a publisher in 1904, one of a trio of London dance halls he built for each of his daughters, Bush Hall is the only surviving of the three.
-                    </span>
+                    </span> */}
                 </div>
             </motion.div>
             <motion.div 
@@ -166,9 +166,9 @@ export const Projects = () => {
                 <div className='project-info'>
                     <h3>Villa Nuage</h3>
                     <h4>React | Hydrogen</h4>
-                    <span>
+                    {/* <span>
                     Providing spacious accommodation for up to 13 people, Villa Nuage is an imposing, contemporary, south facing 800m2 luxury French villa in a totally private, verdant setting with stunning, uninterrupted views of the Mediterranean Sea and Monaco, located under ten minutes drive from Monte Carlo and all of the magic it has to offer.
-                    </span>
+                    </span> */}
                 </div>
             </motion.div>
             <motion.div 
@@ -204,9 +204,9 @@ export const Projects = () => {
                 <div className='project-info'>
                     <h3>Branco</h3>
                     <h4>Shopify</h4>
-                    <span>
+                    {/* <span>
                         We create authentic and sustainable spaces that enhance your lifestyle.
-                    </span>
+                    </span> */}
                 </div>
             </motion.div>
             <motion.div 
@@ -242,9 +242,9 @@ export const Projects = () => {
                 <div className='project-info'>
                     <h3>Onyx</h3>
                     <h4>Shopify</h4>
-                    <span>
+                    {/* <span>
                         Onyx offers a multi-disciplinary service, from initial concept, planning permissions, full construction packages, project management along with interior design packages for both residential and commercial clients in Sheen, Richmond, Wimbledon.
-                    </span>
+                    </span> */}
                 </div>
             </motion.div>
             <motion.div 
@@ -280,9 +280,6 @@ export const Projects = () => {
                 <div className='project-info'>
                     <h3>Lehlo</h3>
                     <h4>React | Hydrogen</h4>
-                    <span>
-                        Lehlo Interiors is a culmination of a childhood dream. 
-                    </span>
                 </div>
             </motion.div>
         </div>

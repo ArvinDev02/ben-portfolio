@@ -9,15 +9,15 @@ export const Footer = () => {
         </div>
         
         <div className='footer-email'>
-          <Link href="https://www.instagram.com/arvingarcellano/" target='_blank'>
-            Instagram~
+          {/* <Link href="https://www.instagram.com/arvingarcellano/" target='_blank'>
+            Instagram
           </Link>
           <Link href="https://www.linkedin.com/in/arvin-garcellano-a81257282/" target='_blank'>
-            LinkedIn~
+            LinkedIn
           </Link>
           <Link href="mailto:garcellanoarvin@gmail.com">
-            Email me~
-          </Link>
+            Email me
+          </Link> */}
         </div>
     </div>
   )
