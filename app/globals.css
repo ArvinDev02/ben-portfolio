@@ -816,7 +816,7 @@ h3 {
 }
 
 .contact-section ul li {
-  margin-bottom: 25px;
+  margin-bottom: 40px;
 }
 
 .contact-section ul li:last-child {
@@ -826,6 +826,42 @@ h3 {
 .contact-section ul a {
   font-family: 'Pitch Sans Bold';
   position: relative;
+  display: inline-block;
+}
+
+.contact-section ul li > div {
+  position: relative;
+  display: inline-block;
+  position: relative;
+}
+
+.contact-section ul li > div:hover span {
+  filter: invert();
+}
+
+.contact-section ul a span {
+  z-index: 1;
+  display: block;
+  mix-blend-mode: inherit;
+}
+
+.contact-section ul li > div:hover .pointer-img-wrap {
+  opacity: 1;
+}
+
+.pointer-img-wrap {
+  width: 200px;
+  height: auto;
+  z-index: -1;
+  opacity: 0;
+}
+
+.pointer-img-wrap img {
+  object-fit: contain;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  width: 150px !important;
+  height: auto !important;
 }
 
 .contact-section ul a:after {
