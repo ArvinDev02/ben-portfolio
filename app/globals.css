@@ -542,15 +542,13 @@ h3 {
   display: block;
 }
 
-.project-img-wrap .image-background {
-  position: absolute !important;
-  top: 14px!important;
-  left: -34px!important;
-  transition: all .4s ease-in-out;
-}
-
 .project-info {
   font-family: 'Pitch Sans Medium';
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  width: 100%;
+  z-index: 1;
 }
 
 .project-info h4 {
@@ -574,6 +572,86 @@ h3 {
   margin-bottom: 0;
 }
 
+.project-item-contaner {
+  position: relative;
+  height: 400px;
+  display: block;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-item-contaner img {
+  object-fit: cover;
+}
+
+.project-item-contaner h2 {
+  font-size: 80px !important;
+  font-family: 'Noto Sans bold';
+  z-index: 1;
+}
+
+.project-item-contaner h3 {
+  margin-bottom: 0;
+}
+
+.project-item-contaner h2,
+.project-item-contaner h3,
+.project-item-contaner h4 {
+  transition: all .4s ease-in-out;
+  color: #fff;
+}
+
+.project-item-contaner:hover h2,
+.project-item-contaner:hover h3,
+.project-item-contaner:hover h4
+{
+  color: #fff;
+}
+
+.projects-wrapper {
+  position: relative;
+}
+
+.arrow-project {
+    width: 23px !important;
+    height: auto !important; 
+    left: unset !important;
+    top: unset !important;
+    right: 20px !important;
+    bottom: 30px !important;
+    transition: all .4s ease-in-out;
+    z-index: 1;
+}
+
+.project-item-contaner .arrow-project {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
+
+.project-item-contaner:after {
+  content: '';
+  background-color: #00000057;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 1;
+  transition: all .3s ease-in-out;
+}
+/* 
+.projects-wrapper .swiper {
+  position: relative;
+  padding-bottom: 200px;
+}
+*/
+
+.projects-wrapper .swiper-pagination {
+ display: none;
+} 
+
 @media(min-width: 768px) {
   .project-item {
     display: flex;
@@ -587,51 +665,12 @@ h3 {
     flex-direction: row-reverse;
   }
 
-  .project-img-wrap,
-  .project-info {
-    width: 40%;
-  }
-
-  .projects-section h2 {
-    margin-bottom: 25px;
-  }
-
   .project-info {
     text-align: left;
   }
 
   .right .project-info {
     text-align: right;
-  }
-
-  .proj-main-img {
-    transition: all .4s ease-in-out;
-  }
-
-  .project-img-wrap:hover .proj-main-img {
-    transform: scale(1.1) !important;
-  }
-
-  .project-img-wrap:hover .image-background {
-    top: 30px !important;
-    left: -72px !important;
-    transform: scale(1);
-  }
-
-  .projects-section h2 {
-    font-size: 28px;
-    margin-bottom: 35px;
-  }
-
-  .project-img-wrap img {
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
-    transition: all .4s ease-in-out;
-  }
-  
-  .project-img-wrap:hover img {
-    -webkit-filter: unset; /* Safari 6.0 - 9.0 */
-    filter: unset;
   }
 
   .project-img-wrap .image-background {
@@ -642,9 +681,6 @@ h3 {
 }
 
 @media(min-width: 1025px) {
-  .projects-section h2 {
-    margin-bottom: 50px;
-  }
 
   .project-img-wrap .image-background {
     transform: scale(1.1);
@@ -656,6 +692,55 @@ h3 {
 
   .project-info span {
     font-size: 14px;
+  }
+
+  .proj-main-img {
+    opacity: 0;
+    transition: all .4s ease-in-out;
+  }
+
+  .project-item-contaner:hover .proj-main-img {
+    opacity: 1;
+  }
+
+  .project-item-contaner:after {
+    content: '';
+    background-color: #00000057;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all .3s ease-in-out;
+  }
+  
+  .project-item-contaner:hover:after {
+    opacity: 1;
+  }
+
+  .project-item-contaner h2,
+  .project-item-contaner h3,
+  .project-item-contaner h4 {
+    transition: all .4s ease-in-out;
+    color: #000;
+  }
+
+  .project-item-contaner:hover h2,
+  .project-item-contaner:hover h3,
+  .project-item-contaner:hover h4
+  {
+    color: #fff;
+  }
+
+  .project-item-contaner .arrow-project {
+    -webkit-filter: unset;
+    filter: unset;
+  }
+
+  .project-item-contaner:hover .arrow-project {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
   }
 
 }
