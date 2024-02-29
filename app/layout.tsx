@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import { Footer } from "./components/Footer";
+import Provider from "./providers";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,12 +17,18 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  // Check if the theme is dark and conditionally add the "dark-mode" class
+  const theme = "dark"; // Replace this with your logic to determine the theme
+  const bodyClass = theme === "dark" ? "dark-mode" : "";
+
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <Navbar/>
-        {children}
-        <Footer/>
+      <body className={`${inter.className} ${bodyClass}`}>
+        <Provider>
+          <Navbar/>
+          {children}
+          <Footer/>
+        </Provider>
       </body>
     </html>
   );

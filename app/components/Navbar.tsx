@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import logoimg from '../../public/images/my-logo.png';
+import ThemeSwitch from './Themeswitch';
 
 interface NavItem {
   label: string;
@@ -71,6 +72,9 @@ const Navbar = () => {
             <span>{item.label}</span>
           </a>
         ))}
+        <div className='theme-switch'>
+          <ThemeSwitch />
+        </div>
       </div>
     </div>
   );

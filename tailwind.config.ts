@@ -14,6 +14,10 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
+    // Add dark mode configuration here
+    darkMode: 'class', // or 'media' or 'class' depending on your preference
+    // If you choose 'class', you need to add a class to your <html> element
+    // to toggle dark mode, such as 'dark'
   },
   plugins: [],
 };
