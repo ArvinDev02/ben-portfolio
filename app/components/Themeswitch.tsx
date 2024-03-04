@@ -25,7 +25,7 @@ const ThemeSwitch: React.FC = () => {
 
 return (
 
-<div className="themeswitch-wrapper relative" onClick={toggleTheme}>
+<div className="themeswitch-wrapper" onClick={toggleTheme}>
 
     <button className={switchClasses}>
     <Image

@@ -83,7 +83,7 @@ export default function Home() {
       <div className="section-item" data-page="contact">
         <Contact />
       </div>
-      {/* <ThemeSwitch /> */}
+      <ThemeSwitch />
     </main>
   );
 }

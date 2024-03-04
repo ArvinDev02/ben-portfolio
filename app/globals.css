@@ -181,6 +181,7 @@ body:after {
 main {
   position: relative;
   height: 100vh;
+  overflow: hidden;
 }
 
 h1,
@@ -325,17 +326,6 @@ html[data-theme="dark"] .nav-items a span:after {
 .footer-email a:hover:after {
   transform: scaleX(1);
   transform-origin: left;
-}
-
-.footer-copyright:after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 110%;
-  height: 1px;
-  background-color: #000;
-  width: 50px;
-  opacity: .5;
 }
 
 html[data-theme="dark"] .footer-copyright:after {
@@ -1051,7 +1041,7 @@ html[data-theme="dark"] .accordion-arrow {
 
 .contact-section h1 {
   text-transform: uppercase;
-  letter-spacing: 5px;
+  letter-spacing: 0;
   font-size: 30px;
 }
 
@@ -1130,7 +1120,6 @@ html[data-theme="dark"] .accordion-arrow {
 @media(min-width: 768px) {
   .contact-section h1 {
     font-size: 40px;
-    letter-spacing: 25px;
   }
 
   .contact-section ul a {
@@ -1139,11 +1128,6 @@ html[data-theme="dark"] .accordion-arrow {
 }
 
 /* Theme switch */
-.themeswitch-wrapper .dark-mode-icon {
-  width: 23px !important;
-  height: auto !important;
-  transition: all .4s ease-in-out;
-}
 
 .themeswitch-wrapper .active .dark-mode-icon.moon-icon {
   transform: translateX(1000px);
@@ -1160,11 +1144,17 @@ html[data-theme="dark"] body {
 
 .themeswitch-wrapper {
   position: absolute;
-  z-index: 5;
-  bottom: 10px;
-  left: 0;
-  height: auto;
+  bottom: 20px !important;
   width: 100%;
+  max-width: 500px;
+  z-index: 20;
+  left: 50%;
+}
+
+.themeswitch-wrapper button {
+  position: relative;
+  width: 23px;
+  height: 23px;
 }
 
 /* New style */
