@@ -2,10 +2,11 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from "framer-motion";
 import Image from 'next/image';
+import Navbar from './Navbar';
 
 export const HeroSection = () => {
   const [text, setText] = useState('');
-  const phrases = ["Website developer.", "Graphic Designer."];
+  const phrases = ["Ben!", "a Developer."];
   const speed = 100; // Typing speed in milliseconds
   const deleteSpeed = 100; // Speed to delete text in milliseconds
 
@@ -22,7 +23,7 @@ export const HeroSection = () => {
         setText(currentText);
         if (currentText === currentPhrase) {
           isDeleting = true;
-          timeoutId = setTimeout(type, 1000); // Wait before deleting
+          timeoutId = setTimeout(type, 3000); // Wait before deleting
         } else {
           timeoutId = setTimeout(type, speed);
         }
@@ -43,7 +44,7 @@ export const HeroSection = () => {
   }, []);
 
   return (
-    <section className='hero-section' id="home">
+    <section className='hero-section section-wrapper' id="home" data-page="home">
         <div className='hero-content'>
             <motion.div
                initial={{ opacity: 0, x: -30 }}
@@ -55,8 +56,8 @@ export const HeroSection = () => {
                }}
                viewport={{ once: true }}
             >
-              <h1>Hello I&apos;m Arvin.</h1>
-              <h1>I&apos;m a {text}</h1>
+              <h1>Hello!</h1>
+              <h1>I&apos;m {text}</h1>
             </motion.div>
             <motion.div 
              initial={{ opacity: 0, x: -30 }}
@@ -74,7 +75,7 @@ export const HeroSection = () => {
             </motion.div>
             <div className='scribbles-wrapper'>
             <Image
-                className='accordion-arrow'
+                className=''
                 src="/images/scribbles.gif"
                 fill
                 sizes="(max-width: 768px) 200px, (max-width: 1024px) 500px, 500px"
@@ -83,7 +84,7 @@ export const HeroSection = () => {
             />
             <span className='bubble-tot'>I&apos;m a web developer!</span>
             <Image
-                className='accordion-arrow spider-gif'
+                className='spider-gif'
                 src="/images/spider.gif"
                 fill
                 sizes="(max-width: 768px) 200px, (max-width: 1024px) 500px, 500px"

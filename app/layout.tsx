@@ -24,11 +24,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} ${bodyClass}`}>
+        <div className="noise-effect"></div>
         <Provider>
-          <Navbar/>
           {children}
-          <Footer/>
         </Provider>
+        <Footer />
       </body>
     </html>
   );
