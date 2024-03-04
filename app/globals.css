@@ -350,18 +350,23 @@ html[data-theme="dark"] .footer-copyright:after {
   align-items: center;
 }
 
-.hero-section h1 {
-  font-size: 23px;
+html[data-theme="dark"] .hero-section h1,
+html[data-theme="dark"] .project-info h3,
+html[data-theme="dark"] .contact-section h1 {
   animation-name:glow;
-  animation-duration:20s;
+  animation-duration:3s;
   animation-iteration-count:infinite;
   animation-direction:alternate;
 }
 
-/* @keyframes glow{
+.hero-section h1 {
+  font-size: 23px;
+}
+
+@keyframes glow{
   from{text-shadow:0px 0px 5px #fff,0px 0px 5px #614ad3;}
   to{text-shadow:0px 0px 20px #fff,0px 0px 20px #614ad3;}
-} */
+}
 
 .hero-section .paragraph {
   font-family: 'Pitch Sans Medium';
