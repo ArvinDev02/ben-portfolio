@@ -60,6 +60,9 @@ export const Projects = () => {
                 <h3>Bush Hall</h3>
                 <h4>Shopify</h4>
             </Link>
+            <Link href="" className='project-info'>
+                <h3>Sopher Wedding</h3>
+            </Link>
         </div>
             {/* <motion.div
                 initial={{ opacity: 0, x: -30 }}
