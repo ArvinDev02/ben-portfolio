@@ -1150,7 +1150,7 @@ html[data-theme="dark"] body {
 .themeswitch-wrapper {
   position: absolute;
   bottom: 20px !important;
-  width: 100%;
+  width: auto;
   max-width: 500px;
   z-index: 20;
   left: 50%;
