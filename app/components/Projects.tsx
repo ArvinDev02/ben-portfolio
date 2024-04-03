@@ -62,6 +62,11 @@ export const Projects = () => {
             </Link>
             <Link href="https://sopher-wedding.vercel.app/" className='project-info'>
                 <h3>Sopher Wedding</h3>
+                <h4>HTML | Javascript</h4>
+            </Link>
+            <Link href="https://angelaspoolresortpalawanofficial.com/" className='project-info'>
+                <h3>Angela's Pool Resort</h3>
+                <h4>Wordpress</h4>
             </Link>
         </div>
         </div>
