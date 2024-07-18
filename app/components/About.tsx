@@ -21,11 +21,11 @@ export const About = () => {
             >
                 <div>
                     <p>
-                        I&apos;m Arvin Garcellano, a Philippines-based front-end website developer and graphic designer. I specialize in crafting visually stunning websites with seamless user experiences. Let&apos;s work together to bring your digital ideas to life!
+                        I&apos;m Arvin Garcellano, a Philippines-based front-end website developer. I specialize in Shopify, WordPress, and React development. Let&apos;s work together to bring your digital ideas to life!
                     </p>
-                    <p>
+                    {/* <p>
                         Outside of work, I enjoy fishing, camping, hiking and drawing.
-                    </p>
+                    </p> */}
                 </div>
                 <div>
                     <h4 className='accordion-title'>Experience:</h4>
@@ -36,7 +36,7 @@ export const About = () => {
                     <div className='accordion-content'>
                         <strong>Bachelor of Science & Technology</strong><br/>
                         2014 - 2018<br/>
-                        <strong>@Palawan State University</strong>
+                        <strong><a href='https://psu.palawan.edu.ph/' target="_blank">@Palawan State University</a></strong>
                     </div>
                 </div>
             </motion.div>

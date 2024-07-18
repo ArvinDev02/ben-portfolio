@@ -71,7 +71,7 @@ export const HeroSection = () => {
 
               className='paragraph'
             >
-                Experienced website developer with expertise in <span>React</span>, <span>JavaScript</span>, <span>WordPress</span>, <span>PHP</span>, <span>Hydrogen</span>, and <span>Shopify</span>.
+                Experienced website developer with expertise in <span>Shopify</span>, <span>React</span>, and <span>Wordpress</span>.
             </motion.div>
             <div className='scribbles-wrapper'>
             <Image
