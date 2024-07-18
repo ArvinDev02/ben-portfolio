@@ -32,7 +32,7 @@ export const Projects = () => {
         </motion.div>
         
         <div className='prj-items-wrapper'> 
-            <Link href="https://statura.vercel.app/" className='project-info'>
+            <Link href="https://www.staturagroup.com/" className='project-info'>
                 <h3>Statura</h3>
                 <h4>React | NextJS</h4>
             </Link>
@@ -65,9 +65,30 @@ export const Projects = () => {
                 <h4>HTML | Javascript</h4>
             </Link>
             <Link href="https://angelaspoolresortpalawanofficial.com/" className='project-info'>
-                <h3>Angela's Pool Resort</h3>
+                <h3>Angela&apos;s Pool Resort</h3>
                 <h4>Wordpress</h4>
             </Link>
+            <Link href="https://angelaspoolresortpalawanofficial.com/" className='project-info'>
+                <h3>Angela&apos;s Pool Resort</h3>
+                <h4>Wordpress</h4>
+            </Link>
+            <Link href="https://reallatinamerica.com/" className='project-info'>
+                <h3>Real Latin America</h3>
+                <h4>Shopify</h4>
+            </Link>
+            <Link href="https://reallatinamerica.com/" className='project-info'>
+                <h3>Real Latin America</h3>
+                <h4>Shopify</h4>
+            </Link>
+            <Link href="https://maison-lepoque.com/" className='project-info'>
+                <h3>Maison Lepoque</h3>
+                <h4>Shopify</h4>
+            </Link>
+            <Link href="https://globalcitizenco.com/" className='project-info'>
+                <h3>Global Citezen</h3>
+                <h4>Shopify</h4>
+            </Link>
+            
         </div>
         </div>
     </section>
