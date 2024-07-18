@@ -861,11 +861,11 @@ html[data-theme="dark"] .project-item-contaner h4 {
 
 .prj-items-wrapper {
   padding-left: 50px;
-  max-height: 400px;
-  overflow: scroll;
-  scrollbar-width: none;
+  max-height: calc(100vh - 60px);
+  overflow: scroll; 
   position: relative;
   z-index: 101;
+  border-left: 1px solid;
 }
 
 @media(min-width: 768px) {
