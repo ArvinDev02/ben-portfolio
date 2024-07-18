@@ -68,14 +68,6 @@ export const Projects = () => {
                 <h3>Angela&apos;s Pool Resort</h3>
                 <h4>Wordpress</h4>
             </Link>
-            <Link href="https://angelaspoolresortpalawanofficial.com/" className='project-info'>
-                <h3>Angela&apos;s Pool Resort</h3>
-                <h4>Wordpress</h4>
-            </Link>
-            <Link href="https://reallatinamerica.com/" className='project-info'>
-                <h3>Real Latin America</h3>
-                <h4>Shopify</h4>
-            </Link>
             <Link href="https://reallatinamerica.com/" className='project-info'>
                 <h3>Real Latin America</h3>
                 <h4>Shopify</h4>
