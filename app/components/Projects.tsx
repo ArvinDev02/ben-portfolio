@@ -32,52 +32,52 @@ export const Projects = () => {
         </motion.div>
         
         <div className='prj-items-wrapper'> 
-            <Link href="https://www.staturagroup.com/" className='project-info'>
+            <Link href="https://www.staturagroup.com/"  target="_blank" className='project-info'>
                 <h3>Statura</h3>
                 <h4>React | NextJS</h4>
             </Link>
-            <Link href="https://brancocapital.co.uk/" className='project-info'>
+            <Link href="https://brancocapital.co.uk/"  target="_blank" className='project-info'>
                 <h3>Branco</h3>
                 <h4>React | NextJS</h4>
             </Link>
-            <Link href="https://villanuage.com/" className='project-info'>
+            <Link href="https://villanuage.com/"  target="_blank" className='project-info'>
                 <h3>Villa Nuage</h3>
                 <h4>React | Hydrogen</h4>
             </Link>
-            <Link href="https://novachef.co/" className='project-info'>
+            <Link href="https://novachef.co/"  target="_blank" className='project-info'>
                 <h3>Nova Chef</h3>
                 <h4>Shopify</h4>
             </Link>
-            <Link href="https://onyxlondon.com/" className='project-info'>
+            <Link href="https://onyxlondon.com/"  target="_blank" className='project-info'>
                 <h3>Onyx</h3>
                 <h4>Shopify</h4>
             </Link>
-            <Link href="https://lehlointeriors.com/" className='project-info'>
+            <Link href="https://lehlointeriors.com/"  target="_blank" className='project-info'>
                 <h3>Lehlo</h3>
                 <h4>React | NextJS</h4>
             </Link>
-            <Link href="https://bushhallmusic.co.uk/" className='project-info'>
+            <Link href="https://bushhallmusic.co.uk/"  target="_blank" className='project-info'>
                 <h3>Bush Hall</h3>
                 <h4>Shopify</h4>
             </Link>
-            <Link href="https://sopher-wedding.vercel.app/" className='project-info'>
+            <Link href="https://sopher-wedding.vercel.app/"  target="_blank" className='project-info'>
                 <h3>Sopher Wedding</h3>
                 <h4>HTML | Javascript</h4>
             </Link>
-            <Link href="https://angelaspoolresortpalawanofficial.com/" className='project-info'>
+            <Link href="https://angelaspoolresortpalawanofficial.com/"  target="_blank" className='project-info'>
                 <h3>Angela&apos;s Pool Resort</h3>
                 <h4>Wordpress</h4>
             </Link>
-            <Link href="https://reallatinamerica.com/" className='project-info'>
+            <Link href="https://reallatinamerica.com/"  target="_blank" className='project-info'>
                 <h3>Real Latin America</h3>
                 <h4>Shopify</h4>
             </Link>
-            <Link href="https://maison-lepoque.com/" className='project-info'>
+            <Link href="https://maison-lepoque.com/"  target="_blank" className='project-info'>
                 <h3>Maison Lepoque</h3>
                 <h4>Shopify</h4>
             </Link>
-            <Link href="https://globalcitizenco.com/" className='project-info'>
-                <h3>Global Citezen</h3>
+            <Link href="https://globalcitizenco.com/"  target="_blank" className='project-info'>
+                <h3>Global Citizen</h3>
                 <h4>Shopify</h4>
             </Link>
             
