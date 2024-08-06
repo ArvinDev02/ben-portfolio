@@ -861,7 +861,7 @@ html[data-theme="dark"] .project-item-contaner h4 {
 
 .prj-items-wrapper {
   padding-left: 50px;
-  max-height: calc(100vh - 60px);
+  max-height: calc(50vh - 60px);
   overflow: scroll; 
   position: relative;
   z-index: 101;
