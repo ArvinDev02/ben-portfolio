@@ -714,6 +714,7 @@ html[data-theme="dark"] .frameworks-section > div:before {
   margin-bottom: 50px;
   font-size: 18px;
   font-family: 'Noto Sans regular';
+  margin-right: 30px;
 }
 
 .projects-section h2 span {

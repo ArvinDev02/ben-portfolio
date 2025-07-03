@@ -32,7 +32,71 @@ export const Projects = () => {
         </motion.div>
         
         <div className='prj-items-wrapper'> 
-            <Link href="https://www.staturagroup.com/"  target="_blank" className='project-info'>
+            <Link href="https://tensspirits.co.uk/"  target="_blank" className='project-info'>
+                <h3>TENS</h3>
+                <h4>Shopify</h4>
+            </Link>
+            <Link href="https://minimalbyhadda.com/"  target="_blank" className='project-info'>
+                <h3>Minimal</h3>
+                <h4>Shopify</h4>
+            </Link>
+            <Link href="https://silkroads.co.uk/"  target="_blank" className='project-info'>
+                <h3>Silk Road</h3>
+                <h4>Shopify</h4>
+            </Link>
+            <Link href="https://e-lena.org/"  target="_blank" className='project-info'>
+                <h3>E-Lena</h3>
+                <h4>Shopify</h4>
+            </Link>
+             <Link href="https://reform-site.myshopify.com/"  target="_blank" className='project-info'>
+                <h3>Reform</h3>
+                <h4>Shopify</h4>
+            </Link>
+            <Link href="https://novachef.co/"  target="_blank" className='project-info'>
+                <h3>Nova Chef</h3>
+                <h4>Shopify</h4>
+            </Link>
+            <Link href="https://onyxlondon.com/"  target="_blank" className='project-info'>
+                <h3>Onyx</h3>
+                <h4>Shopify</h4>
+            </Link>
+            <Link href="https://bushhallmusic.co.uk/"  target="_blank" className='project-info'>
+                <h3>Bush Hall</h3>
+                <h4>Shopify</h4>
+            </Link>
+             <Link href="https://reallatinamerica.com/"  target="_blank" className='project-info'>
+                <h3>Real Latin America</h3>
+                <h4>Shopify</h4>
+            </Link>
+            <Link href="https://maison-lepoque.com/"  target="_blank" className='project-info'>
+                <h3>Maison Lepoque</h3>
+                <h4>Shopify</h4>
+            </Link>
+            <Link href="https://globalcitizenco.com/"  target="_blank" className='project-info'>
+                <h3>Global Citizen</h3> 
+                <h4>Shopify</h4>
+            </Link>
+             <Link href="https://pears-international.vercel.app/"  target="_blank" className='project-info'>
+                <h3>Pears International</h3>
+                <h4>React | NextJS</h4>
+            </Link>
+            <Link href="https://www.hermodcapital.com/"  target="_blank" className='project-info'>
+                <h3>Hermond Capital</h3>
+                <h4>React | NextJS</h4>
+            </Link>
+            <Link href="https://lehlointeriors.com/"  target="_blank" className='project-info'>
+                <h3>Lehlo</h3>
+                <h4>React | NextJS</h4>
+            </Link>
+            <Link href="https://sopher-wedding.vercel.app/"  target="_blank" className='project-info'>
+                <h3>Sopher Wedding</h3>
+                <h4>HTML | Javascript</h4>
+            </Link>
+            <Link href="https://angelaspoolresortpalawanofficial.com/"  target="_blank" className='project-info'>
+                <h3>Angela&apos;s Pool Resort</h3>
+                <h4>Wordpress</h4>
+            </Link>
+             <Link href="https://www.staturagroup.com/"  target="_blank" className='project-info'>
                 <h3>Statura</h3>
                 <h4>React | NextJS</h4>
             </Link>
@@ -44,43 +108,6 @@ export const Projects = () => {
                 <h3>Villa Nuage</h3>
                 <h4>React | Hydrogen</h4>
             </Link>
-            <Link href="https://novachef.co/"  target="_blank" className='project-info'>
-                <h3>Nova Chef</h3>
-                <h4>Shopify</h4>
-            </Link>
-            <Link href="https://onyxlondon.com/"  target="_blank" className='project-info'>
-                <h3>Onyx</h3>
-                <h4>Shopify</h4>
-            </Link>
-            <Link href="https://lehlointeriors.com/"  target="_blank" className='project-info'>
-                <h3>Lehlo</h3>
-                <h4>React | NextJS</h4>
-            </Link>
-            <Link href="https://bushhallmusic.co.uk/"  target="_blank" className='project-info'>
-                <h3>Bush Hall</h3>
-                <h4>Shopify</h4>
-            </Link>
-            <Link href="https://sopher-wedding.vercel.app/"  target="_blank" className='project-info'>
-                <h3>Sopher Wedding</h3>
-                <h4>HTML | Javascript</h4>
-            </Link>
-            <Link href="https://angelaspoolresortpalawanofficial.com/"  target="_blank" className='project-info'>
-                <h3>Angela&apos;s Pool Resort</h3>
-                <h4>Wordpress</h4>
-            </Link>
-            <Link href="https://reallatinamerica.com/"  target="_blank" className='project-info'>
-                <h3>Real Latin America</h3>
-                <h4>Shopify</h4>
-            </Link>
-            <Link href="https://maison-lepoque.com/"  target="_blank" className='project-info'>
-                <h3>Maison Lepoque</h3>
-                <h4>Shopify</h4>
-            </Link>
-            <Link href="https://globalcitizenco.com/"  target="_blank" className='project-info'>
-                <h3>Global Citizen</h3>
-                <h4>Shopify</h4>
-            </Link>
-            
         </div>
         </div>
     </section>
