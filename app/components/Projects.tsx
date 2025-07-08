@@ -36,6 +36,18 @@ export const Projects = () => {
                 <h3>TENS</h3>
                 <h4>Shopify</h4>
             </Link>
+            <Link href="https://dash-water.com/"  target="_blank" className='project-info'>
+                <h3>Dash Water</h3>
+                <h4>Shopify</h4>
+            </Link>
+            <Link href="https://mani-life.com/?srsltid=AfmBOorMP4YHN43Sda3r5KaIY2xLlg3PqvepKxRtqir-ahROXjlPFqtR"  target="_blank" className='project-info'>
+                <h3>Manilife</h3>
+                <h4>Shopify</h4>
+            </Link>
+            <Link href="https://audreyschocolates.co.uk/"  target="_blank" className='project-info'>
+                <h3>Audrey's Chocolate</h3>
+                <h4>Shopify</h4>
+            </Link>
             <Link href="https://minimalbyhadda.com/"  target="_blank" className='project-info'>
                 <h3>Minimal</h3>
                 <h4>Shopify</h4>
