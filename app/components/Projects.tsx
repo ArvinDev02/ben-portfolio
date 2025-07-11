@@ -45,7 +45,7 @@ export const Projects = () => {
                 <h4>Shopify</h4>
             </Link>
             <Link href="https://audreyschocolates.co.uk/"  target="_blank" className='project-info'>
-                <h3>Audrey's Chocolate</h3>
+                <h3>Audreys Chocolate</h3>
                 <h4>Shopify</h4>
             </Link>
             <Link href="https://minimalbyhadda.com/"  target="_blank" className='project-info'>
